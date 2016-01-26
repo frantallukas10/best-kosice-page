@@ -1,0 +1,116 @@
+/* clearfix */
+/* line 7, ../sass/_settings.scss */
+.clearfix:before {
+  content: "";
+  display: table;
+  margin: 0;
+  padding: 0;
+}
+/* line 14, ../sass/_settings.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+/* line 1, ../sass/_style.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  font-family: 'Ubuntu Condensed',sans-serif;
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+
+/* line 10, ../sass/_style.scss */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 14, ../sass/_style.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 19, ../sass/_style.scss */
+.main-container {
+  margin: 0 auto;
+}
+
+/* line 23, ../sass/_style.scss */
+.sub-container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+/* line 28, ../sass/_style.scss */
+.navigation {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 33, ../sass/_style.scss */
+.list-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 38, ../sass/_style.scss */
+.list-hover {
+  display: none;
+}
+
+/* line 42, ../sass/_style.scss */
+.list-navigation {
+  display: block;
+  background-color: #f2990d;
+  height: 50px;
+  font-size: 0;
+}
+/* line 48, ../sass/_style.scss */
+.list-navigation a {
+  display: block;
+  padding: 10px 15px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 56, ../sass/_style.scss */
+.holder-logo a {
+  display: block;
+  background: #fff;
+  height: 120px;
+  padding: 15px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* line 64, ../sass/_style.scss */
+.holder-header-slider-bc {
+  position: relative;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* line 72, ../sass/_style.scss */
+.bc-nan {
+  padding-top: 20px;
+  position: relative;
+}
+/* line 76, ../sass/_style.scss */
+.bc-nan:after {
+  position: absolute;
+  content: '';
+  background: url(../images/target/content-image/topbgopacity.png) no-repeat;
+  z-index: 2;
+  min-height: 135px;
+  width: 100%;
+  top: 0;
+}
+
+/*# sourceMappingURL=base.css.map */

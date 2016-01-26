@@ -1,0 +1,32 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+//@mixin box-sizing($box-model) {
+//  -webkit-box-sizing: $box-model; // Safari <= 5
+//  -moz-box-sizing: $box-model; // Firefox <= 19
+//  box-sizing: $box-model;
+//}
+
+//@include word-break(break-all);
+@mixin word-break ($break-model) {
+  -ms-word-break: $break-model;
+  word-break: $break-model;
+}
+
+@mixin hyphens ($hyphens-model) {
+  -webkit-hyphens: $hyphens-model;
+  -moz-hyphens: $hyphens-model;
+  -ms-hyphens: $hyphens-model;
+  hyphens: $hyphens-model;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
