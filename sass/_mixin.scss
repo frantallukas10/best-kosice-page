@@ -5,11 +5,11 @@
   border-radius: $radius;
 }
 
-//@mixin box-sizing($box-model) {
-//  -webkit-box-sizing: $box-model; // Safari <= 5
-//  -moz-box-sizing: $box-model; // Firefox <= 19
-//  box-sizing: $box-model;
-//}
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+  -moz-box-sizing: $box-model; // Firefox <= 19
+  box-sizing: $box-model;
+}
 
 //@include word-break(break-all);
 @mixin word-break ($break-model) {
